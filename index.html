@@ -1,945 +1,1140 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="th" id="html-root">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<title>คลินิกโรคกระดูกและข้อ นพ.สุวัฒน์ รสจันทร์ | อุบลราชธานี</title>
-
-<meta name="description"
-content="คลินิกโรคกระดูกและข้อ อุบลราชธานี รักษาปวดเข่า ปวดหลัง นิ้วล็อค เก๊าท์ กระดูกหัก พร้อมบริการ X-ray โดยแพทย์เฉพาะทางด้านออร์โธปิดิกส์">
-
-<meta name="keywords"
-content="คลินิกกระดูก อุบล, หมอกระดูก อุบลราชธานี, รักษาปวดเข่า, นิ้วล็อค, X-ray อุบล">
-
+<!-- ===== Primary SEO ===== -->
+<title>คลินิกโรคกระดูกและข้อ นพ.สุวัฒน์ รสจันทร์ | อุบลราชธานี – ยโสธร</title>
+<meta name="description" content="คลินิกโรคกระดูกและข้อ อุบลราชธานี รักษาปวดเข่า ปวดหลัง นิ้วล็อค เก๊าท์ กระดูกหัก พร้อมบริการ X-ray โดยแพทย์เฉพาะทางด้านออร์โธปิดิกส์">
+<meta name="keywords" content="คลินิกกระดูก อุบล, หมอกระดูก อุบลราชธานี, รักษาปวดเข่า, นิ้วล็อค, X-ray อุบล">
 <meta name="author" content="Suwat Clinic">
 <meta name="robots" content="index, follow">
 
-<meta property="og:title"
-content="คลินิกโรคกระดูกและข้อ นพ.สุวัฒน์ รสจันทร์">
+<!-- ===== Open Graph ===== -->
+<meta property="og:type"        content="website">
+<meta property="og:site_name"   content="Suwat Orthopedic Clinic">
+<meta property="og:title"       content="คลินิกโรคกระดูกและข้อ นพ.สุวัฒน์ รสจันทร์">
+<meta property="og:description" content="รักษาโรคกระดูก ข้อ กล้ามเนื้อ พร้อมบริการ X-ray">
+<meta property="og:image"       content="https://your-domain.com/clinic-cover.jpg">
+<meta property="og:url"         content="https://your-domain.com">
 
-<meta property="og:description"
-content="รักษาโรคกระดูก ข้อ กล้ามเนื้อ พร้อมบริการ X-ray">
-
-<meta property="og:image"
-content="https://your-domain.com/clinic-cover.jpg">
-
-<meta property="og:url"
-content="https://your-domain.com">
-
-<meta property="og:site_name"
-content="Suwat Orthopedic Clinic">
-
-<meta property="og:type"
-content="website">
-
-<!-- ========== Schema Markup (MedicalClinic) - FIX #2 ========== -->
+<!-- ===== Schema: MedicalClinic ===== -->
 <script type="application/ld+json">
 {
- "@context":"https://schema.org",
- "@type":"FAQPage",
- "mainEntity":[
-   {
-     "@type":"Question",
-     "name":"ต้องนัดก่อนหรือไม่",
-     "acceptedAnswer":{
-       "@type":"Answer",
-       "text":"สามารถ Walk-in ได้โดยไม่ต้องนัดหมาย"
-     }
-   },
-   {
-     "@type":"Question",
-     "name":"มีบริการ X-ray หรือไม่",
-     "acceptedAnswer":{
-       "@type":"Answer",
-       "text":"มีบริการ X-ray Digital พร้อมทราบผลเบื้องต้นได้ทันที"
-     }
-   },
-   {
-     "@type":"Question",
-     "name":"รักษาโรคเก๊าท์หรือไม่",
-     "acceptedAnswer":{
-       "@type":"Answer",
-       "text":"มีบริการตรวจและรักษาโรคเก๊าท์ รวมถึงตรวจเลือดหาค่ากรดยูริก"
-     }
-   },
-   {
-     "@type":"Question",
-     "name":"รักษานิ้วล็อคหรือไม่",
-     "acceptedAnswer":{
-       "@type":"Answer",
-       "text":"มีบริการรักษานิ้วล็อคทั้งแบบไม่ผ่าตัดและผ่าตัด"
-     }
-   }
- ]
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "name": "คลินิกโรคกระดูกและข้อ นพ.สุวัฒน์ รสจันทร์",
+  "url": "https://your-domain.com",
+  "telephone": "+66816943743",
+  "image": "https://your-domain.com/clinic-cover.jpg",
+  "description": "คลินิกเฉพาะทางด้านกระดูก ข้อ และกล้ามเนื้อ โดยแพทย์ผู้เชี่ยวชาญ",
+  "medicalSpecialty": "Orthopedic",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "15/2 ซอยเลี่ยงเมือง 1",
+    "addressLocality": "เมืองอุบลราชธานี",
+    "addressRegion": "อุบลราชธานี",
+    "postalCode": "34000",
+    "addressCountry": "TH"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 15.3245,
+    "longitude": 104.8486
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Saturday"],
+      "opens": "14:00",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Sunday"],
+      "opens": "09:00",
+      "closes": "19:00"
+    }
+  ],
+  "employee": {
+    "@type": "Physician",
+    "name": "นายแพทย์สุวัฒน์ รสจันทร์",
+    "medicalSpecialty": "Orthopedic"
+  }
 }
 </script>
 
-<title>Suwat Clinic | ຄລີນິກກະດູກແລະຂໍ້ | Orthopedic Clinic</title>
+<!-- ===== Schema: FAQPage ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "ต้องนัดก่อนหรือไม่",
+      "acceptedAnswer": { "@type": "Answer", "text": "สามารถ Walk-in ได้โดยไม่ต้องนัดหมาย" }
+    },
+    {
+      "@type": "Question",
+      "name": "มีบริการ X-ray หรือไม่",
+      "acceptedAnswer": { "@type": "Answer", "text": "มีบริการ X-ray Digital พร้อมทราบผลเบื้องต้นได้ทันที" }
+    },
+    {
+      "@type": "Question",
+      "name": "รักษาโรคเก๊าท์หรือไม่",
+      "acceptedAnswer": { "@type": "Answer", "text": "มีบริการตรวจและรักษาโรคเก๊าท์ รวมถึงตรวจเลือดหาค่ากรดยูริก" }
+    },
+    {
+      "@type": "Question",
+      "name": "รักษานิ้วล็อคหรือไม่",
+      "acceptedAnswer": { "@type": "Answer", "text": "มีบริการรักษานิ้วล็อคทั้งแบบไม่ผ่าตัดและผ่าตัด" }
+    }
+  ]
+}
+</script>
 
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-body{
-    font-family: 'Segoe UI', Roboto, 'Noto Sans', 'Phetsarath OT', system-ui, -apple-system, Arial, sans-serif;
-    background:#f4f8f4;
-    line-height:1.5;
-    scroll-behavior:smooth;
-}
- 
-header {
-    position: relative;
-    width: 100%;
-    min-height: 320px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.header-image{
-    width:100%;
-    height:320px;
-    object-fit:cover;
-    object-position:center 35%;
-    display:block;
-}
-.header-content{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    text-align:center;
-    color:white;
-    background:rgba(0,20,0,0.55);
-    backdrop-filter:blur(3px);
-    padding:24px 32px;
-    border-radius:32px;
-    width:90%;
-    max-width:750px;
-    box-shadow:0 12px 24px rgba(0,0,0,0.2);
-}
- 
-.header-content h1{
-    font-size:clamp(1.4rem, 5vw, 2.2rem);
-    margin-bottom:8px;
-    letter-spacing:-0.3px;
-}
- 
-.header-content p{
-    font-size:clamp(0.9rem, 4vw, 1.1rem);
-    margin:10px 0;
-}
- 
-.lang-btn{
-    margin-top:15px;
-    display:flex;
-    justify-content:center;
-    gap:12px;
-}
- 
-.lang-btn button{
-    background:#ffffffdd;
-    border:none;
-    padding:8px 18px;
-    font-weight:bold;
-    border-radius:60px;
-    cursor:pointer;
-    transition:0.2s;
-    font-size:0.9rem;
-}
-.lang-btn button:hover{
-    background:#2e7d32;
-    color:white;
-    transform:scale(1.02);
-}
- 
-.button-group{
-    margin:15px 0 5px;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:12px;
-}
- 
-.button{
-    display:inline-block;
-    padding:10px 20px;
-    background:#2c6e2f;
-    color:white;
-    border-radius:40px;
-    text-decoration:none;
-    font-weight:bold;
-    transition:0.2s;
-    box-shadow:0 2px 6px rgba(0,0,0,0.2);
-}
-.button:hover{
-    background:#145a18;
-    transform:translateY(-2px);
-}
- 
-nav{
-    background:#0f3b12;
-    padding:14px 12px;
-    text-align:center;
-    position:sticky;
-    top:0;
-    z-index:100;
-}
-nav a{
-    color:#f9f3cf;
-    margin:0 12px;
-    text-decoration:none;
-    font-weight:600;
-    font-size:1rem;
-    transition:0.2s;
-}
-nav a:hover{
-    color:#ffefb9;
-    border-bottom:2px solid #ffd966;
-}
- 
-section{
-    padding:48px 24px;
-    max-width:1100px;
-    margin:auto;
-}
-h2{
-    color:#1f5423;
-    font-size:1.9rem;
-    border-left:6px solid #2e7d32;
-    padding-left:20px;
-    margin-bottom:32px;
-}
- 
-.card{
-    background:white;
-    border-radius:28px;
-    padding:28px 30px;
-    margin:28px 0;
-    box-shadow:0 10px 25px rgba(0,32,0,0.08);
-    transition:0.2s;
-}
-.doctor-card{
-    display:flex;
-    flex-wrap:wrap;
-    gap:28px;
-    align-items:center;
-}
-.doctor-photo{
-    width:140px;
-    height:170px;
-    object-fit:cover;
-    border-radius:20px;
-    border:3px solid #2e7d32;
-    box-shadow:0 8px 18px rgba(0,0,0,0.1);
-}
-.doctor-info{
-    flex:1;
-    font-size:1.05rem;
-}
- 
-.services-title{
-    font-size:1.6rem;
-    font-weight:700;
-    color:#1f5423;
-    margin-bottom:6px;
-}
-.services-subtitle{
-    font-size:1rem;
-    color:#4a6741;
-    margin-bottom:20px;
-    font-style:italic;
-}
-.services-list{
-    list-style:none;
-    padding:0;
-    display:grid;
-    grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
-    gap:12px;
-}
-.services-list li{
-    padding:8px 0 8px 28px;
-    position:relative;
-    border-bottom:1px solid #e9f0e6;
-}
-.services-list li::before{
-    content:"✓";
-    color:#2e7d32;
-    font-weight:bold;
-    position:absolute;
-    left:0;
-    top:6px;
-    font-size:1.1rem;
-}
- 
-.location-card{
-    background:white;
-    border-radius:32px;
-    padding:30px;
-    box-shadow:0 12px 28px rgba(0,0,0,0.08);
-}
-.branch-buttons{
-    display:flex;
-    gap:15px;
-    margin-bottom:30px;
-    flex-wrap:wrap;
-}
-.branch-btn{
-    background:#eef3ec;
-    border:none;
-    padding:12px 26px;
-    font-weight:bold;
-    font-size:1rem;
-    border-radius:60px;
-    cursor:pointer;
-    color:#1e3a1e;
-}
-.branch-btn.active{
-    background:#2e7d32;
-    color:white;
-    box-shadow:0 4px 10px rgba(0,0,0,0.1);
-}
-.branch-btn:hover:not(.active){
-    background:#cde2c7;
-}
- 
-.branch-content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    margin-top: 20px;
-}
-.map-container {
-    flex: 1;
-    min-width: 250px;
-}
-.clinic-photo-container {
-    flex: 1;
-    min-width: 250px;
-}
-.map-img, .clinic-img {
-    width: 100%;
-    height: auto;
-    min-height: 220px;
-    object-fit: cover;
-    border-radius: 24px;
-    border: 1px solid #d4e2cf;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-}
- 
-.hours-grid{
-    display:flex;
-    flex-wrap:wrap;
-    gap:24px;
-}
-.hours-card{
-    flex:1;
-    min-width:240px;
-}
-.contact-links{
-    display:flex;
-    flex-direction:column;
-    gap:14px;
-}
-.contact-links a{
-    color:#1f5423;
-    text-decoration:none;
-    font-weight:500;
-    font-size:1.1rem;
-    display:inline-flex;
-    align-items:center;
-    gap:10px;
-}
-.contact-links a:hover{
-    text-decoration:underline;
-    color:#0f3b12;
-}
-footer{
-    background:#0a2a0c;
-    color:#d9e6cf;
-    text-align:center;
-    padding:28px;
-    font-size:0.9rem;
+/* ===== Reset & Base ===== */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Language visibility - using CSS classes instead of inline display:none for better SEO */
+body {
+  font-family: 'Segoe UI', Roboto, 'Noto Sans Thai', 'Phetsarath OT', system-ui, Arial, sans-serif;
+  background: #f4f8f4;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  color: #1a2e1a;
+}
+
+/* ===== Language Visibility ===== */
+.th, .en, .lo { display: none; }
+
 .lang-th .th { display: inline; }
-.lang-th .en { display: none; }
-.lang-th .lo { display: none; }
-
-.lang-en .th { display: none; }
 .lang-en .en { display: inline; }
-.lang-en .lo { display: none; }
-
-.lang-lo .th { display: none; }
-.lang-lo .en { display: none; }
 .lang-lo .lo { display: inline; }
 
-/* Block level overrides */
+/* Block-level language elements */
 .lang-th .service-block-th { display: block; }
-.lang-th .service-block-en { display: none; }
-.lang-th .service-block-lo { display: none; }
-.lang-en .service-block-th { display: none; }
 .lang-en .service-block-en { display: block; }
-.lang-en .service-block-lo { display: none; }
-.lang-lo .service-block-th { display: none; }
-.lang-lo .service-block-en { display: none; }
 .lang-lo .service-block-lo { display: block; }
 
-.branch{
-    animation:fade 0.25s ease;
+.service-block-th,
+.service-block-en,
+.service-block-lo { display: none; }
+
+/* ===== Header ===== */
+header {
+  position: relative;
+  width: 100%;
+  min-height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
-@keyframes fade{
-    from{opacity:0; transform:translateY(5px);}
-    to{opacity:1; transform:translateY(0);}
+
+.header-image {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  object-position: center 35%;
+  display: block;
 }
- 
-.gallery-container {
-    width: 100%;
-    max-width: 900px;
-    margin: auto;
-    overflow: hidden;
-    border-radius: 28px;
-    box-shadow: 0 12px 28px rgba(0,0,0,0.12);
-    position: relative;
-    background: #0a2a0c;
+
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background: rgba(0, 20, 0, 0.55);
+  backdrop-filter: blur(3px);
+  padding: 24px 32px;
+  border-radius: 32px;
+  width: 90%;
+  max-width: 750px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
-.slider {
-    width: 100%;
-    height: 450px;
-    overflow: hidden;
+
+.header-content h1 {
+  font-size: clamp(1.4rem, 5vw, 2.2rem);
+  margin-bottom: 8px;
+  letter-spacing: -0.3px;
 }
-.slides {
-    display: flex;
-    width: 500%;
-    transition: transform 0.5s ease-in-out;
+
+.header-content p {
+  font-size: clamp(0.9rem, 4vw, 1.1rem);
+  margin: 10px 0;
 }
-.slides img {
-    width: 20%;
-    height: 100%;
-    aspect-ratio: 2 / 1;
-    object-fit: cover;
-    object-position: center;
+
+.lang-btn {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
 }
-.slider-controls {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 18px;
-    align-items: center;
+
+.lang-btn button {
+  background: rgba(255, 255, 255, 0.87);
+  border: none;
+  padding: 8px 18px;
+  font-weight: bold;
+  border-radius: 60px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s, color 0.2s;
+  font-size: 0.9rem;
 }
-.slider-btn {
-    background: #2e7d32;
-    border: none;
-    color: white;
-    font-size: 1.3rem;
-    width: 44px;
-    height: 44px;
-    border-radius: 60px;
-    cursor: pointer;
-    transition: 0.2s;
+
+.lang-btn button:hover {
+  background: #2e7d32;
+  color: white;
+  transform: scale(1.02);
 }
-.slider-btn:hover {
-    background: #1b5e20;
-    transform: scale(1.05);
+
+/* ===== CTA Buttons ===== */
+.button-group {
+  margin: 15px 0 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
 }
-.dots {
-    display: flex;
-    gap: 12px;
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #2c6e2f;
+  color: white;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
-.dot {
-    width: 10px;
-    height: 10px;
-    background: #c0d6b3;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 0.2s;
+
+.button:hover {
+  background: #145a18;
+  transform: translateY(-2px);
 }
-.dot.active {
-    background: #2e7d32;
-    width: 28px;
-    border-radius: 10px;
+
+.btn-call-now { background: #c62828; }
+.btn-chat-now { background: #00b900; }
+
+/* ===== Navigation ===== */
+nav {
+  background: #0f3b12;
+  padding: 14px 12px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
-@media (max-width: 680px) {
-    .gallery-container {
-        max-width: 100%;
-        border-radius: 20px;
-    }
-    .slider {
-        height: 280px;
-    }
-    .slider-btn {
-        width: 38px;
-        height: 38px;
-        font-size: 1rem;
-    }
-    .dot {
-        width: 8px;
-        height: 8px;
-    }
-    .dot.active {
-        width: 22px;
-    }
-    section{
-        padding:32px 18px;
-    }
-    .card{
-        padding:20px;
-    }
-    .doctor-card{
-        flex-direction:column;
-        text-align:center;
-    }
-    .services-list{
-        grid-template-columns:1fr;
-    }
-    nav a{
-        margin:0 8px;
-        font-size:0.85rem;
-    }
-    .header-content{
-        padding:14px 18px;
-        width:92%;
-    }
-    .branch-content {
-        flex-direction: column;
-    }
+
+nav a {
+  color: #f9f3cf;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.2s, border-bottom 0.2s;
 }
- 
-.gallery-caption {
-    text-align: center;
-    margin-top: 16px;
-    color: #4a6741;
-    font-size: 0.9rem;
-    font-weight: 500;
+
+nav a:hover {
+  color: #ffefb9;
+  border-bottom: 2px solid #ffd966;
 }
- 
-.trust-badge {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
-    margin: 20px 0 10px;
+
+/* ===== Sections ===== */
+section {
+  padding: 48px 24px;
+  max-width: 1100px;
+  margin: auto;
 }
-.trust-item {
-    background: #eef5ea;
-    border-radius: 20px;
-    padding: 16px 12px;
-    flex: 1;
-    text-align: center;
-    font-weight: 600;
-    color: #1f5423;
+
+h2 {
+  color: #1f5423;
+  font-size: 1.9rem;
+  border-left: 6px solid #2e7d32;
+  padding-left: 20px;
+  margin-bottom: 32px;
 }
-.trust-item span {
-    font-size: 1.8rem;
-    display: block;
+
+/* ===== Cards ===== */
+.card {
+  background: white;
+  border-radius: 28px;
+  padding: 28px 30px;
+  margin: 28px 0;
+  box-shadow: 0 10px 25px rgba(0, 32, 0, 0.08);
 }
+
 .walkin-card {
-    background: #fff7e0;
-    border-left: 8px solid #f5a623;
+  background: #fff7e0;
+  border-left: 8px solid #f5a623;
 }
-.whyus-list {
-    list-style: none;
-    padding-left: 0;
+
+/* ===== Doctor ===== */
+.doctor-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  align-items: center;
 }
-.whyus-list li {
-    margin: 12px 0;
-    font-size: 1.05rem;
-    display: flex;
-    align-items: center;
-    gap: 12px;
+
+.doctor-photo {
+  width: 140px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 3px solid #2e7d32;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
 }
-.whyus-list li::before {
-    content: "✅";
-    font-size: 1.2rem;
+
+.doctor-info {
+  flex: 1;
+  font-size: 1.05rem;
 }
- 
+
+/* ===== Services ===== */
+.services-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1f5423;
+  margin-bottom: 6px;
+}
+
+.services-subtitle {
+  font-size: 1rem;
+  color: #4a6741;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.services-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+}
+
+.services-list li {
+  padding: 8px 0 8px 28px;
+  position: relative;
+  border-bottom: 1px solid #e9f0e6;
+}
+
+.services-list li::before {
+  content: "✓";
+  color: #2e7d32;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 6px;
+  font-size: 1.1rem;
+}
+
+/* ===== Location ===== */
+.location-card {
+  background: white;
+  border-radius: 32px;
+  padding: 30px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+
+.branch-buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.branch-btn {
+  background: #eef3ec;
+  border: none;
+  padding: 12px 26px;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 60px;
+  cursor: pointer;
+  color: #1e3a1e;
+  transition: background 0.2s;
+}
+
+.branch-btn.active {
+  background: #2e7d32;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.branch-btn:hover:not(.active) {
+  background: #cde2c7;
+}
+
+.branch {
+  animation: fade 0.25s ease;
+}
+
+@keyframes fade {
+  from { opacity: 0; transform: translateY(5px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.branch-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.map-container,
+.clinic-photo-container {
+  flex: 1;
+  min-width: 250px;
+}
+
+.map-img,
+.clinic-img {
+  width: 100%;
+  height: auto;
+  min-height: 220px;
+  object-fit: cover;
+  border-radius: 24px;
+  border: 1px solid #d4e2cf;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* ===== Trust Badges ===== */
+.trust-badge {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 20px 0 10px;
+}
+
+.trust-item {
+  background: #eef5ea;
+  border-radius: 20px;
+  padding: 16px 12px;
+  flex: 1;
+  text-align: center;
+  font-weight: 600;
+  color: #1f5423;
+}
+
+.trust-item span:first-child {
+  font-size: 1.8rem;
+  display: block;
+}
+
+/* ===== Reviews ===== */
 .review-card {
-    background: #fef9e6;
-    border-radius: 24px;
-    padding: 20px;
-    margin: 12px 0;
-    font-style: italic;
-    border-left: 5px solid #2e7d32;
+  background: #fef9e6;
+  border-radius: 24px;
+  padding: 20px;
+  margin: 12px 0;
+  font-style: italic;
+  border-left: 5px solid #2e7d32;
 }
+
 .review-author {
-    font-weight: bold;
-    margin-top: 12px;
-    color: #2e5c2a;
+  font-weight: bold;
+  font-style: normal;
+  margin-top: 12px;
+  color: #2e5c2a;
 }
-.btn-call-now {
-    background: #c62828;
+
+/* ===== Why Us ===== */
+.whyus-list {
+  list-style: none;
+  padding-left: 0;
 }
-.btn-chat-now {
-    background: #00b900;
+
+.whyus-list li {
+  margin: 12px 0;
+  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.whyus-list li::before {
+  content: "✅";
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+/* ===== Gallery / Slider ===== */
+.gallery-container {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 28px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  position: relative;
+  background: #0a2a0c;
+}
+
+.slider {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  height: 100%;
+}
+
+.slides img {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 18px;
+  align-items: center;
+}
+
+.slider-btn {
+  background: #2e7d32;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-btn:hover {
+  background: #1b5e20;
+  transform: scale(1.05);
+}
+
+.dots {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #c0d6b3;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.2s, width 0.2s, border-radius 0.2s;
+}
+
+.dot.active {
+  background: #2e7d32;
+  width: 28px;
+  border-radius: 10px;
+}
+
+.gallery-caption {
+  text-align: center;
+  margin-top: 16px;
+  color: #4a6741;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* ===== Contact ===== */
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.contact-links a,
+#contact .card a {
+  color: #1f5423;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.contact-links a:hover,
+#contact .card a:hover {
+  text-decoration: underline;
+  color: #0f3b12;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: #0a2a0c;
+  color: #d9e6cf;
+  text-align: center;
+  padding: 28px;
+  font-size: 0.9rem;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 680px) {
+  .gallery-container { border-radius: 20px; }
+  .slider { height: 280px; }
+  .slider-btn { width: 38px; height: 38px; font-size: 1rem; }
+  .dot { width: 8px; height: 8px; }
+  .dot.active { width: 22px; }
+  section { padding: 32px 18px; }
+  .card { padding: 20px; }
+  .doctor-card { flex-direction: column; text-align: center; }
+  .services-list { grid-template-columns: 1fr; }
+  nav a { margin: 0 8px; font-size: 0.85rem; }
+  .header-content { padding: 14px 18px; width: 92%; }
+  .branch-content { flex-direction: column; }
+  .trust-badge { flex-direction: column; }
 }
 </style>
 </head>
+
 <body class="lang-th">
 
-<!-- ========== HEADER with .header-image (FIX #1) ========== -->
+<!-- ===== HEADER ===== -->
 <header>
-    <img src="clinic-cover.jpg" class="header-image" alt="Suwat Orthopedic Clinic - คลินิกโรคกระดูกและข้อ อุบลราชธานี" loading="lazy" onerror="this.src='https://placehold.co/1200x400/2e6b2f/white?text=Suwat+Orthopedic+Clinic'">
-    <div class="header-content">
-        <h1>
-            <span class="th">คลินิกโรคกระดูกและข้อ นพ.สุวัฒน์ รสจันทร์</span>
-            <span class="en">Dr. Suwat Roschan Orthopedic Clinic</span>
-            <span class="lo">ຄລີນິກພະຍາດກະດູກ ແລະ ຂໍ້ ນພ.ສຸວັດ ລົດຈັນ</span>
-        </h1>
-        <p>
-            <span class="th">คลินิกเฉพาะทางด้านกระดูก ข้อ และกล้ามเนื้อ</span>
-            <span class="en">Specialist in bone, joint, and muscle care</span>
-            <span class="lo">ຄລີນິກຊ່ຽວຊານດ້ານກະດູກ ຂໍ້ ແລະ ກ້າມຊີ້ນ</span>
-        </p>
-        <p>Ubon Ratchathani • Yasothon</p>
-        <div class="lang-btn">
-            <button onclick="setLanguage('th')">🇹🇭 ไทย</button>
-            <button onclick="setLanguage('en')">🇺🇸 EN</button>
-            <button onclick="setLanguage('lo')">🇱🇦 ລາວ</button>
-        </div>
+  <img
+    src="clinic-cover.jpg"
+    class="header-image"
+    alt="Suwat Orthopedic Clinic - คลินิกโรคกระดูกและข้อ อุบลราชธานี"
+    loading="eager"
+    onerror="this.src='https://placehold.co/1200x400/2e6b2f/white?text=Suwat+Orthopedic+Clinic'">
+
+  <div class="header-content">
+    <h1>
+      <span class="th">คลินิกโรคกระดูกและข้อ นพ.สุวัฒน์ รสจันทร์</span>
+      <span class="en">Dr. Suwat Roschan Orthopedic Clinic</span>
+      <span class="lo">ຄລີນິກພະຍາດກະດູກ ແລະ ຂໍ້ ນພ.ສຸວັດ ລົດຈັນ</span>
+    </h1>
+    <p>
+      <span class="th">คลินิกเฉพาะทางด้านกระดูก ข้อ และกล้ามเนื้อ</span>
+      <span class="en">Specialist in bone, joint, and muscle care</span>
+      <span class="lo">ຄລີນິກຊ່ຽວຊານດ້ານກະດູກ ຂໍ້ ແລະ ກ້າມຊີ້ນ</span>
+    </p>
+    <p>Ubon Ratchathani • Yasothon</p>
+    <div class="lang-btn">
+      <button onclick="setLanguage('th')">🇹🇭 ไทย</button>
+      <button onclick="setLanguage('en')">🇺🇸 EN</button>
+      <button onclick="setLanguage('lo')">🇱🇦 ລາວ</button>
     </div>
+  </div>
 </header>
 
-<!-- TRUST SIGNALS SECTION -->
-<section id="trust">
-    <h2>
-        <span class="th">ทำไมต้องเลือกเรา</span>
-        <span class="en">Why Trust Suwat Clinic?</span>
-        <span class="lo">ເປັນຫຍັງຕ້ອງເລືອກພວກເຮົາ?</span>
-    </h2>
-    <div class="card">
-        <div class="trust-badge">
-            <div class="trust-item"><span>🏆</span> <span class="th">15+ ปี ประสบการณ์</span><span class="en">15+ Years Experience</span><span class="lo">15+ ປີ ປະສົບການ</span></div>
-            <div class="trust-item"><span>🎓</span> <span class="th">แพทย์เฉพาะทางออร์โธปิดิกส์</span><span class="en">Orthopedic Specialist</span><span class="lo">ແພດຊ່ຽວຊານດ້ານກະດູກແລະຂໍ້</span></div>
-            <div class="trust-item"><span>✅</span> <span class="th">ใบประกอบวิชาชีพเลขที่ 23603</span><span class="en">License No. 23603</span><span class="lo">ໃບປະກອບວິຊາຊີບເລກທີ 23603</span></div>
-        </div>
-        <div class="review-card">
-            <span class="th">⭐️⭐️⭐️⭐️⭐️ "คุณหมออธิบายเข้าใจดีมาก เป็นกันเอง ผมได้พา คุณพ่อมารักษา คุณหมอขอแนะนำต่อครับ สำหรับคนที่มองหาคลินิกรักษากระดูกและเข่าดีมากครับ คลินิกสะอาดมากครับ ดูแลดีจริงๆ"</span>
-            <span class="en">⭐️⭐️⭐️⭐️⭐️ "The doctor explained very clearly and was friendly. I brought my father for treatment here. I highly recommend this doctor for anyone looking for a good bone and knee clinic. The clinic is very clean and the care is truly excellent."</span>
-            <span class="lo">⭐️⭐️⭐️⭐️⭐️ "ທ່ານໝໍອະທິບາຍເຂົ້າໃຈງ່າຍຫຼາຍ ເປັນກັນເອງ ຂ້ອຍໄດ້ພາພໍ່ມາປິ່ນປົວ ຂໍແນະນຳທ່ານໝໍຕໍ່ສຳລັບຄົນທີ່ຊອກຫາຄລີນິກປິ່ນປົວກະດູກ ແລະ ຫົວເຂົ່າດີຫຼາຍ ຄລີນິກສະອາດຫຼາຍ ເບິ່ງແຍງດີແທ້ໆ"</span>
-            <div class="review-author">– Ov Ci.</div>
-        </div>
-        <div class="review-card">
-            <span class="th">⭐️⭐️⭐️⭐️⭐️ "เคยมาหาหมอด้วยอาการเจ็บข้างเข่าด้านใน รับยามาทานประมาณ 2 อาทิตย์พร้อมด้วยท่าบริหาร 3 ท่า และคำแนะนำให้ลดน้ำหนัก ปัจจุบันลืมไปเลยว่าเคยเจ็บ"</span>
-            <span class="en">⭐️⭐️⭐️⭐️⭐️ "I came to see the doctor with inner knee pain. I took medication for about 2 weeks along with 3 exercise stretches and advice to lose weight. Now I've completely forgotten that I ever had pain."</span>
-            <span class="lo">⭐️⭐️⭐️⭐️⭐️ "ເຄີຍມາຫາທ່ານໝໍດ້ວຍອາການເຈັບຂ້າງຫົວເຂົ່າດ້ານໃນ ໄດ້ຮັບຢາມາກິນປະມານ 2 ອາທິດ ພ້ອມດ້ວຍທ່າບໍລິຫານ 3 ທ່າ ແລະ ຄຳແນະນຳໃຫ້ຫຼຸດນ້ຳໜັກ ປັດຈຸບັນລືມໄປໝົດແລ້ວວ່າເຄີຍເຈັບ"</span>
-            <div class="review-author">– Pakawat Kantangkul.</div>
-        </div>
-        <div class="review-card">
-            <span class="th">⭐️⭐️⭐️⭐️⭐️ "เจ็บส้นเท้ามาก คุณหมอฉีดยาให้+ยากิน วันต่อมาหายสนิทเลย ถ้าลดน้ำหนักไม่สำเร็จก็จะมาหาคุณหมอเหมือนเดิมนะคะ55 รอไม่นาน จ่ายรวม 6xx บาท ถ้ามีเก้าอี้ให้นั่งใส่รองเท้าด้านหน้าจะดีมากเลยค่ะ"</span>
-            <span class="en">⭐️⭐️⭐️⭐️⭐️ "My heel hurt so much. The doctor gave me an injection + oral medication. The next day, it completely healed. If I fail to lose weight, I'll come back to the same doctor again, haha😂. The wait wasn't long. Paid a total of 6xx baht. It would be great if there was a chair to sit on while putting on shoes at the front."</span>
-            <span class="lo">⭐️⭐️⭐️⭐️⭐️ "ສົ້ນຕີນເຈັບຫຼາຍ ທ່ານໝໍສັກຢາໃຫ້ + ຢາກິນ ມື້ຕໍ່ມາຫາຍສະນິດເລີຍ ຖ້າຫຼຸດນ້ຳໜັກບໍ່ສຳເລັດກໍ່ຈະມາຫາທ່ານໝໍຄືເກົ່ານາເດ້55 ລໍບໍ່ດົນ ຈ່າຍລວມ 6xx ບາດ ຖ້າມີເກົ້າອີ້ໃຫ້ນັ່ງໃສ່ເກີບທາງດ້ານໜ້າຈະດີຫຼາຍເລີຍ"</span>
-            <div class="review-author">– Wonder 2023.</div>
-        </div>
-    </div>
-</section>
-
-<section id="motto" style="padding: 12px 24px; text-align: center;">
-    <p style="font-size: 1.3rem; font-style: italic; color: #2e7d32; font-weight: 600;">
-        <span class="th">❝ รักษาด้วยความเข้าใจ ดูแลด้วยความเป็นมืออาชีพ ❞</span>
-        <span class="en">❝ Treat with understanding, care with professionalism ❞</span>
-        <span class="lo">❝ ປິ່ນປົວດ້ວຍຄວາມເຂົ້າໃຈ ເບິ່ງແຍງດ້ວຍຄວາມເປັນມືອາຊີບ ❞</span>
-    </p>
-</section>
-
-<!-- EMERGENCY / WALK-IN CLARITY -->
-<section id="emergency">
-    <div class="card walkin-card">
-        <p><strong>
-            <span class="th">🚶‍♂️ Walk-in ได้ ไม่ต้องนัด 🚑</span>
-            <span class="en">🚶‍♂️ Walk-in available, no appointment needed 🚑</span>
-            <span class="lo">🚶‍♂️ ເຂົ້າມາໄດ້ໂດຍບໍ່ຕ້ອງນັດ 🚑</span>
-        </strong></p>
-        <p>
-            <span class="th">รองรับเคล็ดขัดยอก ปวดเฉียบพลัน กระดูกหัก ข้อเคลื่อน รับบริการ X-ray ทันที</span>
-            <span class="en">Walk-ins welcome for acute pain, fractures, dislocations, sprains. Immediate X‑ray available.</span>
-            <span class="lo">ຮັບຄົນເຈັບເຂົ້າມາໄດ້ໂດຍບໍ່ຕ້ອງນັດ ສຳລັບອາການເຈັບສ້ວຍແຫຼມ ກະດູກຫັກ ຂໍ້ເຄື່ອນ ເອກຊະເຣຍທັນທີ</span>
-        </p>
-        <p>✅ <span class="th">ไม่ต้องรอคิวนาน</span><span class="en">No long queues</span><span class="lo">ບໍ່ຕ້ອງລໍຄິວດົນ</span> • ✅ <span class="th">แพทย์เวชศาสตร์กระดูกประจำคลินิก</span><span class="en">Orthopedic specialist on-site</span><span class="lo">ແພດຊ່ຽວຊານດ້ານກະດູກປະຈຳຄລີນິກ</span></p>
-    </div>
-</section>
-
-<!-- WHY CHOOSE US -->
-<section>
-    <div class="card">
-        <p><strong>
-            <span class="th">ทำไมต้องเลือกเรา?</span>
-            <span class="en">Why choose us?</span>
-            <span class="lo">ເປັນຫຍັງຕ້ອງເລືອກພວກເຮົາ?</span>
-        </strong></p>
-        <ul class="whyus-list">
-            <li><span class="th">แพทย์เฉพาะทางด้านศัลยกรรมโรคกระดูกและข้อโดยตรง</span><span class="en">Direct orthopedic specialization</span><span class="lo">ແພດຊ່ຽວຊານດ້ານການຜ່າຕັດກະດູກແລະຂໍ້ໂດຍກົງ</span></li>
-            <li><span class="th">ระบบ X-ray ทันที รู้ผลไว</span><span class="en">On-site X-ray, fast results</span><span class="lo">ລະບົບ X-ray ທັນທີ ຮູ້ຜົນໄວ</span></li>
-            <li><span class="th">ไม่ต้องรอคิวนาน บริการรวดเร็ว</span><span class="en">Minimal wait time, efficient service</span><span class="lo">ບໍ່ຕ້ອງລໍຄິວດົນ ບໍລິການວ່ອງໄວ</span></li>
-            <li><span class="th">ให้คำปรึกษาครบวงจร ตั้งแต่วินิจฉัยจนถึงการรักษาและฟื้นฟูอย่างมั่นคง</span><span class="en">Full cycle care: diagnosis to rehab guidance</span><span class="lo">ໃຫ້ຄຳປຶກສາຄົບວົງຈອນ ຕັ້ງແຕ່ການວິນິດໄສຈົນເຖິງການປິ່ນປົວ ແລະ ຟື້ນຟູຢ່າງໝັ້ນຄົງ</span></li>
-        </ul>
-    </div>
-</section>
-
-<!-- GALLERY SECTION - WITH LAZY LOAD (FIX #4) -->
-<section id="gallery">
-    <h2><span class="th">คลินิกภายใน</span><span class="en">Clinic Interior</span><span class="lo">ພາຍໃນຄລີນິກ</span></h2>
-    <div class="gallery-container" id="galleryContainer">
-        <div class="slider" id="sliderWrapper">
-            <div class="slides" id="slides">
-                <img src="C1.jpg" loading="lazy" alt="คลินิกภายใน - ห้องตรวจ 1" onerror="this.src='https://placehold.co/900x450/2e6b2f/white?text=C1'">
-                <img src="C3.jpg" loading="lazy" alt="คลินิกภายใน - ห้องตรวจ 2" onerror="this.src='https://placehold.co/900x450/2e6b2f/white?text=C3'">
-                <img src="C4.jpg" loading="lazy" alt="คลินิกภายใน - อุปกรณ์การแพทย์" onerror="this.src='https://placehold.co/900x450/2e6b2f/white?text=C4'">
-                <img src="C5.jpg" loading="lazy" alt="คลินิกภายใน - ห้องพักผู้ป่วย" onerror="this.src='https://placehold.co/900x450/2e6b2f/white?text=C5'">
-                <img src="C12.jpg" loading="lazy" alt="คลินิกภายใน - บริการ X-ray" onerror="this.src='https://placehold.co/900x450/2e6b2f/white?text=C12'">
-            </div>
-        </div>
-        <div class="slider-controls">
-            <button class="slider-btn" id="prevBtn">◀</button>
-            <div class="dots" id="dotsContainer"></div>
-            <button class="slider-btn" id="nextBtn">▶</button>
-        </div>
-    </div>
-    <p class="gallery-caption">
-        <span class="th">🏥 บรรยากาศภายในคลินิก | ห้องตรวจที่ทันสมัย | บริการ X-ray คุณภาพสูง</span>
-        <span class="en">🏥 Clinic Atmosphere | Modern Examination Rooms | High-Quality X-ray Service</span>
-        <span class="lo">🏥 ບັນຍາກາດພາຍໃນຄລີນິກ | ຫ້ອງກວດທີ່ທັນສະໄໝ | ບໍລິການ X-ray ຄຸນນະພາບສູງ</span>
-    </p>
-</section>
-
+<!-- ===== NAV ===== -->
 <nav>
-    <a href="#about"><span class="th">เกี่ยวกับแพทย์</span><span class="en">About</span><span class="lo">ກ່ຽວກັບໝໍ</span></a>
-    <a href="#services"><span class="th">บริการ</span><span class="en">Services</span><span class="lo">ບໍລິການ</span></a>
-    <a href="#location"><span class="th">สถานที่ตั้ง</span><span class="en">Location</span><span class="lo">ສະຖານທີ່ຕັ້ງ</span></a>
-    <a href="#contact"><span class="th">ติดต่อ</span><span class="en">Contact</span><span class="lo">ຕິດຕໍ່</span></a>
+  <a href="#about">
+    <span class="th">เกี่ยวกับแพทย์</span>
+    <span class="en">About</span>
+    <span class="lo">ກ່ຽວກັບໝໍ</span>
+  </a>
+  <a href="#services">
+    <span class="th">บริการ</span>
+    <span class="en">Services</span>
+    <span class="lo">ບໍລິການ</span>
+  </a>
+  <a href="#location">
+    <span class="th">สถานที่ตั้ง</span>
+    <span class="en">Location</span>
+    <span class="lo">ສະຖານທີ່ຕັ້ງ</span>
+  </a>
+  <a href="#contact">
+    <span class="th">ติดต่อ</span>
+    <span class="en">Contact</span>
+    <span class="lo">ຕິດຕໍ່</span>
+  </a>
 </nav>
 
+<!-- ===== TRUST SIGNALS ===== -->
+<section id="trust">
+  <h2>
+    <span class="th">ทำไมต้องเลือกเรา</span>
+    <span class="en">Why Trust Suwat Clinic?</span>
+    <span class="lo">ເປັນຫຍັງຕ້ອງເລືອກພວກເຮົາ?</span>
+  </h2>
+
+  <div class="card">
+    <div class="trust-badge">
+      <div class="trust-item">
+        <span>🏆</span>
+        <span class="th">15+ ปี ประสบการณ์</span>
+        <span class="en">15+ Years Experience</span>
+        <span class="lo">15+ ປີ ປະສົບການ</span>
+      </div>
+      <div class="trust-item">
+        <span>🎓</span>
+        <span class="th">แพทย์เฉพาะทางออร์โธปิดิกส์</span>
+        <span class="en">Orthopedic Specialist</span>
+        <span class="lo">ແພດຊ່ຽວຊານດ້ານກະດູກແລະຂໍ້</span>
+      </div>
+      <div class="trust-item">
+        <span>✅</span>
+        <span class="th">ใบประกอบวิชาชีพเลขที่ 23603</span>
+        <span class="en">License No. 23603</span>
+        <span class="lo">ໃບປະກອບວິຊາຊີບເລກທີ 23603</span>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <span class="th">⭐️⭐️⭐️⭐️⭐️ "คุณหมออธิบายเข้าใจดีมาก เป็นกันเอง ผมได้พาคุณพ่อมารักษา คุณหมอขอแนะนำต่อครับ สำหรับคนที่มองหาคลินิกรักษากระดูกและเข่าดีมากครับ คลินิกสะอาดมากครับ ดูแลดีจริงๆ"</span>
+      <span class="en">⭐️⭐️⭐️⭐️⭐️ "The doctor explained very clearly and was friendly. I brought my father for treatment here. I highly recommend this doctor for anyone looking for a good bone and knee clinic. Very clean, truly excellent care."</span>
+      <span class="lo">⭐️⭐️⭐️⭐️⭐️ "ທ່ານໝໍອະທິບາຍເຂົ້າໃຈງ່າຍຫຼາຍ ເປັນກັນເອງ ຂ້ອຍໄດ້ພາພໍ່ມາປິ່ນປົວ ຂໍແນະນຳທ່ານໝໍຕໍ່ສຳລັບຄົນທີ່ຊອກຫາຄລີນິກດີ ສະອາດຫຼາຍ ເບິ່ງແຍງດີແທ້ໆ"</span>
+      <div class="review-author">– Ov Ci.</div>
+    </div>
+
+    <div class="review-card">
+      <span class="th">⭐️⭐️⭐️⭐️⭐️ "เคยมาหาหมอด้วยอาการเจ็บข้างเข่าด้านใน รับยามาทานประมาณ 2 อาทิตย์พร้อมด้วยท่าบริหาร 3 ท่า และคำแนะนำให้ลดน้ำหนัก ปัจจุบันลืมไปเลยว่าเคยเจ็บ"</span>
+      <span class="en">⭐️⭐️⭐️⭐️⭐️ "I came with inner knee pain. Took medication for about 2 weeks, did 3 exercise stretches, and followed advice to lose weight. Now I've completely forgotten I ever had pain."</span>
+      <span class="lo">⭐️⭐️⭐️⭐️⭐️ "ເຄີຍມາດ້ວຍອາການເຈັບຂ້າງຫົວເຂົ່າດ້ານໃນ ໄດ້ຮັບຢາມາກິນ 2 ອາທິດ ພ້ອມທ່າບໍລິຫານ 3 ທ່າ ຕອນນີ້ລືມໄປໝົດແລ້ວ"</span>
+      <div class="review-author">– Pakawat Kantangkul.</div>
+    </div>
+
+    <div class="review-card">
+      <span class="th">⭐️⭐️⭐️⭐️⭐️ "เจ็บส้นเท้ามาก คุณหมอฉีดยาให้+ยากิน วันต่อมาหายสนิทเลย รอไม่นาน จ่ายรวม 6xx บาท ถ้ามีเก้าอี้ให้นั่งใส่รองเท้าด้านหน้าจะดีมากเลยค่ะ"</span>
+      <span class="en">⭐️⭐️⭐️⭐️⭐️ "My heel hurt terribly. The doctor gave me an injection + oral meds. Completely healed the next day. Short wait. Paid around 6xx baht. A chair near the entrance for putting on shoes would be a nice touch!"</span>
+      <span class="lo">⭐️⭐️⭐️⭐️⭐️ "ສົ້ນຕີນເຈັບຫຼາຍ ທ່ານໝໍສັກຢາ + ຢາກິນ ມື້ຕໍ່ມາຫາຍສະນິດ ລໍບໍ່ດົນ ຈ່າຍ 6xx ບາດ"</span>
+      <div class="review-author">– Wonder 2023.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MOTTO ===== -->
+<section id="motto" style="padding: 12px 24px; text-align: center;">
+  <p style="font-size: 1.3rem; font-style: italic; color: #2e7d32; font-weight: 600;">
+    <span class="th">❝ รักษาด้วยความเข้าใจ ดูแลด้วยความเป็นมืออาชีพ ❞</span>
+    <span class="en">❝ Treat with understanding, care with professionalism ❞</span>
+    <span class="lo">❝ ປິ່ນປົວດ້ວຍຄວາມເຂົ້າໃຈ ເບິ່ງແຍງດ້ວຍຄວາມເປັນມືອາຊີບ ❞</span>
+  </p>
+</section>
+
+<!-- ===== WALK-IN CARD ===== -->
+<section id="emergency">
+  <div class="card walkin-card">
+    <p><strong>
+      <span class="th">🚶‍♂️ Walk-in ได้ ไม่ต้องนัด 🚑</span>
+      <span class="en">🚶‍♂️ Walk-in available — no appointment needed 🚑</span>
+      <span class="lo">🚶‍♂️ ເຂົ້າມາໄດ້ໂດຍບໍ່ຕ້ອງນັດ 🚑</span>
+    </strong></p>
+    <p>
+      <span class="th">รองรับเคล็ดขัดยอก ปวดเฉียบพลัน กระดูกหัก ข้อเคลื่อน รับบริการ X-ray ทันที</span>
+      <span class="en">Walk-ins welcome for acute pain, fractures, dislocations, and sprains. Immediate X-ray available.</span>
+      <span class="lo">ຮັບຄົນເຈັບເຂົ້າໄດ້ໂດຍບໍ່ຕ້ອງນັດ ສຳລັບອາການເຈັບສ້ວຍແຫຼມ ກະດູກຫັກ ຂໍ້ເຄື່ອນ ເອກຊະເຣຍທັນທີ</span>
+    </p>
+    <p>
+      ✅ <span class="th">ไม่ต้องรอคิวนาน</span><span class="en">No long queues</span><span class="lo">ບໍ່ຕ້ອງລໍຄິວດົນ</span>
+      &nbsp;•&nbsp;
+      ✅ <span class="th">แพทย์เฉพาะทางออร์โธปิดิกส์ประจำคลินิก</span><span class="en">Orthopedic specialist on-site</span><span class="lo">ແພດຊ່ຽວຊານດ້ານກະດູກປະຈຳຄລີນິກ</span>
+    </p>
+  </div>
+</section>
+
+<!-- ===== WHY CHOOSE US ===== -->
+<section>
+  <div class="card">
+    <p><strong>
+      <span class="th">ทำไมต้องเลือกเรา?</span>
+      <span class="en">Why choose us?</span>
+      <span class="lo">ເປັນຫຍັງຕ້ອງເລືອກພວກເຮົາ?</span>
+    </strong></p>
+    <ul class="whyus-list">
+      <li>
+        <span class="th">แพทย์เฉพาะทางด้านศัลยกรรมโรคกระดูกและข้อโดยตรง</span>
+        <span class="en">Direct orthopedic surgical specialization</span>
+        <span class="lo">ແພດຊ່ຽວຊານດ້ານການຜ່າຕັດກະດູກແລະຂໍ້ໂດຍກົງ</span>
+      </li>
+      <li>
+        <span class="th">ระบบ X-ray ทันที รู้ผลไว</span>
+        <span class="en">On-site digital X-ray — fast results</span>
+        <span class="lo">ລະບົບ X-ray ທັນທີ ຮູ້ຜົນໄວ</span>
+      </li>
+      <li>
+        <span class="th">ไม่ต้องรอคิวนาน บริการรวดเร็ว</span>
+        <span class="en">Minimal wait time, efficient service</span>
+        <span class="lo">ບໍ່ຕ້ອງລໍຄິວດົນ ບໍລິການວ່ອງໄວ</span>
+      </li>
+      <li>
+        <span class="th">ให้คำปรึกษาครบวงจร ตั้งแต่วินิจฉัยจนถึงการรักษาและฟื้นฟู</span>
+        <span class="en">Full-cycle care: diagnosis through rehabilitation</span>
+        <span class="lo">ໃຫ້ຄຳປຶກສາຄົບວົງຈອນ ຕັ້ງແຕ່ການວິນິດໄສ ຈົນເຖິງການຟື້ນຟູ</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section id="gallery">
+  <h2>
+    <span class="th">คลินิกภายใน</span>
+    <span class="en">Clinic Interior</span>
+    <span class="lo">ພາຍໃນຄລີນິກ</span>
+  </h2>
+
+  <div class="gallery-container" id="galleryContainer">
+    <div class="slider">
+      <div class="slides" id="slides">
+        <img src="C1.jpg"  loading="lazy" alt="คลินิกภายใน - ห้องตรวจ 1"        onerror="this.src='https://placehold.co/900x450/2e6b2f/white?text=C1'">
+        <img src="C3.jpg"  loading="lazy" alt="คลินิกภายใน - ห้องตรวจ 2"        onerror="this.src='https://placehold.co/900x450/2e6b2f/white?text=C3'">
+        <img src="C4.jpg"  loading="lazy" alt="คลินิกภายใน - อุปกรณ์การแพทย์"  onerror="this.src='https://placehold.co/900x450/2e6b2f/white?text=C4'">
+        <img src="C5.jpg"  loading="lazy" alt="คลินิกภายใน - ห้องพักผู้ป่วย"   onerror="this.src='https://placehold.co/900x450/2e6b2f/white?text=C5'">
+        <img src="C12.jpg" loading="lazy" alt="คลินิกภายใน - บริการ X-ray"      onerror="this.src='https://placehold.co/900x450/2e6b2f/white?text=C12'">
+      </div>
+    </div>
+
+    <div class="slider-controls">
+      <button class="slider-btn" id="prevBtn" aria-label="Previous slide">&#9664;</button>
+      <div class="dots" id="dotsContainer" role="tablist" aria-label="Slide navigation"></div>
+      <button class="slider-btn" id="nextBtn" aria-label="Next slide">&#9654;</button>
+    </div>
+  </div>
+
+  <p class="gallery-caption">
+    <span class="th">🏥 บรรยากาศภายในคลินิก | ห้องตรวจที่ทันสมัย | บริการ X-ray คุณภาพสูง</span>
+    <span class="en">🏥 Clinic Atmosphere | Modern Examination Rooms | High-Quality X-ray Service</span>
+    <span class="lo">🏥 ບັນຍາກາດພາຍໃນຄລີນິກ | ຫ້ອງກວດທີ່ທັນສະໄໝ | ບໍລິການ X-ray ຄຸນນະພາບສູງ</span>
+  </p>
+</section>
+
+<!-- ===== ABOUT DOCTOR ===== -->
 <section id="about">
-    <h2><span class="th">เกี่ยวกับแพทย์</span><span class="en">About Doctor</span><span class="lo">ກ່ຽວກັບໝໍ</span></h2>
-    <div class="card">
-        <div class="doctor-card">
-            <img src="doctor.jpg" loading="lazy" class="doctor-photo" alt="Dr. Suwat Roschan" onerror="this.src='https://placehold.co/150x180/2e6b2f/white?text=Dr.Suwat'">
-            <div class="doctor-info">
-                <p><strong><span class="th">นายแพทย์สุวัฒน์ รสจันทร์</span><span class="en">Dr. Suwat Roschan</span><span class="lo">ທ່ານໝໍສຸວັດ ລົດຈັນ</span></strong></p>
-                <p><span class="th">แพทย์เฉพาะทางด้านศัลยศาสตร์ออร์โธปิดิกส์</span><span class="en">Orthopedic specialist</span><span class="lo">ແພດຊ່ຽວຊານດ້ານການຜ່າຕັດກະດູກແລະຂໍ້</span></p>
-                <p><span class="th">ใบอนุญาตเลขที่ 23603 | ประสบการณ์กว่า 15 ปี</span><span class="en">License No. 23603 | 15+ years experience</span><span class="lo">ໃບອະນຸຍາດເລກທີ 23603 | ປະສົບການຫຼາຍກວ່າ 15 ປີ</span></p>
-                <p><span class="th">ให้บริการรักษาโรคกระดูก ข้อ กล้ามเนื้อ และโรคทั่วไป</span><span class="en">Providing orthopedic and general treatment</span><span class="lo">ໃຫ້ບໍລິການປິ່ນປົວພະຍາດກະດູກ ຂໍ້ ກ້າມຊີ້ນ ແລະ ພະຍາດທົ່ວໄປ</span></p>
-            </div>
-        </div>
+  <h2>
+    <span class="th">เกี่ยวกับแพทย์</span>
+    <span class="en">About Doctor</span>
+    <span class="lo">ກ່ຽວກັບໝໍ</span>
+  </h2>
+  <div class="card">
+    <div class="doctor-card">
+      <img
+        src="doctor.jpg"
+        loading="lazy"
+        class="doctor-photo"
+        alt="Dr. Suwat Roschan"
+        onerror="this.src='https://placehold.co/150x180/2e6b2f/white?text=Dr.Suwat'">
+      <div class="doctor-info">
+        <p><strong>
+          <span class="th">นายแพทย์สุวัฒน์ รสจันทร์</span>
+          <span class="en">Dr. Suwat Roschan</span>
+          <span class="lo">ທ່ານໝໍສຸວັດ ລົດຈັນ</span>
+        </strong></p>
+        <p>
+          <span class="th">แพทย์เฉพาะทางด้านศัลยศาสตร์ออร์โธปิดิกส์</span>
+          <span class="en">Orthopedic Surgeon Specialist</span>
+          <span class="lo">ແພດຊ່ຽວຊານດ້ານການຜ່າຕັດກະດູກແລະຂໍ້</span>
+        </p>
+        <p>
+          <span class="th">ใบอนุญาตเลขที่ 23603 | ประสบการณ์กว่า 15 ปี</span>
+          <span class="en">License No. 23603 | 15+ years experience</span>
+          <span class="lo">ໃບອະນຸຍາດເລກທີ 23603 | ປະສົບການຫຼາຍກວ່າ 15 ປີ</span>
+        </p>
+        <p>
+          <span class="th">ให้บริการรักษาโรคกระดูก ข้อ กล้ามเนื้อ และโรคทั่วไป</span>
+          <span class="en">Providing orthopedic and general medical treatment</span>
+          <span class="lo">ໃຫ້ບໍລິການປິ່ນປົວພະຍາດກະດູກ ຂໍ້ ກ້າມຊີ້ນ ແລະ ພະຍາດທົ່ວໄປ</span>
+        </p>
+      </div>
     </div>
+  </div>
 </section>
 
+<!-- ===== SERVICES ===== -->
 <section id="services">
-    <h2><span class="th">บริการ</span><span class="en">Services</span><span class="lo">ບໍລິການ</span></h2>
-    <div class="card">
-        <div class="service-block-th th">
-            <p class="services-title">ตรวจรักษา</p>
-            <p class="services-subtitle">โรคเส้นเอ็น เส้นประสาท กระดูกและข้อ โรคทั่วไป</p>
-            <ul class="services-list">
-                <li>ปวดหลัง ร้าวลงขา</li>
-                <li>ปวดเข่า ข้อติดขัด ชะลอข้อเข่าเสื่อมด้วยน้ำเลี้ยงข้อเข่า ข้อเท้า นิ้วล็อค ก้อนซีสต์ที่ข้อมือ</li>
-                <li>ผ่าตัดผังผืดรัดเส้นประสาท นิ้วล็อค ก้อนเนื้อที่ข้อมือ ข้อเท้า จากการทำงานหนักหรือเล่นกีฬา</li>
-                <li>ปวดเข่า โรคเก้าท์ โรครูมาตอยด์ กระดูกพรุน จากการทำงาน รู้ผลทันที</li>
-                <li>บริการระบบเอ็กซเรย์ระบบดิจิตอล สะดวกรวดเร็ว รู้ผลทันที</li>
-                <li>บริการใส่เฝือก จัดกระดูก ข้อเคลื่อน กระดูกหัก</li>
-                <li>ตรวจเลือดหาค่ากรดยูริกเพื่อวินิจฉัยโรคเก๊าท์</li>
-            </ul>
-        </div>
-        <div class="service-block-en en">
-            <p class="services-title">Treatment / Care</p>
-            <p class="services-subtitle">Tendon, Nerve, Bone & Joint Diseases — General</p>
-            <ul class="services-list">
-                <li>Back pain, radiating down the leg</li>
-                <li>Knee pain, stiff joints, viscosupplementation, trigger finger, wrist cyst</li>
-                <li>Surgical release for nerve entrapment, trigger finger, wrist/hand masses</li>
-                <li>Gout, rheumatoid arthritis, bone spurs, sports injuries</li>
-                <li>Digital X-ray service — fast, immediate results</li>
-                <li>Splinting, fracture reduction, dislocation management</li>
-                <li>Blood test for uric acid levels to diagnose gout</li>
-            </ul>
-        </div>
-        <div class="service-block-lo lo">
-            <p class="services-title">ກວດປິ່ນປົວ</p>
-            <p class="services-subtitle">ພະຍາດເສັ້ນເອັນ ເສັ້ນປະສາດ ກະດູກແລະຂໍ້ ພະຍາດທົ່ວໄປ</p>
-            <ul class="services-list">
-                <li>ເຈັບຫຼັງ ຮ້າງລົງຂາ</li>
-                <li>ເຈັບຫົວເຂົ່າ ຂໍ້ຕິດຂັດ ຊະລໍຂໍ້ເຂົ່າເສື່ອມດ້ວຍນ້ຳລ້ຽງຂໍ້ເຂົ່າ ຂໍ້ເທົ້າ ນິ້ວລັອກ ກ້ອນຊີດທີ່ຂໍ້ມື</li>
-                <li>ຜ່າຕັດຜັງຜືດຮັດເສັ້ນປະສາດ ນິ້ວລັອກ ກ້ອນເນື້ອທີ່ຂໍ້ມື ຂໍ້ເທົ້າ ບາດເຈັບຈາກກິລາ</li>
-                <li>ເຈັບຫົວເຂົ່າ ພະຍາດເກົ້າທີ ພະຍາດຣູມາຕອຍ ກະດູກພຸນ ຮູ້ຜົນທັນທີ</li>
-                <li>ບໍລິການລະບົບ X-ray ດີຈີຕອລ ສະດວກວ່ອງໄວ ຮູ້ຜົນທັນທີ</li>
-                <li>ບໍລິການໃສ່ເຝືອກ ຈັດກະດູກ ຂໍ້ເຄື່ອນ ກະດູກຫັກ</li>
-                <li>ກວດເລືອດຫາຄ່າກົດຢູຣິກເພື່ອວິນິດໄສພະຍາດເກົ້າທີ</li>
-            </ul>
-        </div>
+  <h2>
+    <span class="th">บริการ</span>
+    <span class="en">Services</span>
+    <span class="lo">ບໍລິການ</span>
+  </h2>
+  <div class="card">
+    <!-- Thai -->
+    <div class="service-block-th">
+      <p class="services-title">ตรวจรักษา</p>
+      <p class="services-subtitle">โรคเส้นเอ็น เส้นประสาท กระดูกและข้อ โรคทั่วไป</p>
+      <ul class="services-list">
+        <li>ปวดหลัง ร้าวลงขา</li>
+        <li>ปวดเข่า ข้อติดขัด ชะลอข้อเข่าเสื่อมด้วยน้ำเลี้ยงข้อเข่า</li>
+        <li>ข้อเท้า นิ้วล็อค ก้อนซีสต์ที่ข้อมือ</li>
+        <li>ผ่าตัดผังผืดรัดเส้นประสาท นิ้วล็อค ก้อนเนื้อที่ข้อมือ ข้อเท้า</li>
+        <li>ปวดเข่า โรคเก้าท์ โรครูมาตอยด์ กระดูกพรุน จากการทำงาน</li>
+        <li>บริการระบบเอ็กซเรย์ดิจิตอล รู้ผลทันที</li>
+        <li>บริการใส่เฝือก จัดกระดูก ข้อเคลื่อน กระดูกหัก</li>
+        <li>ตรวจเลือดหาค่ากรดยูริกเพื่อวินิจฉัยโรคเก๊าท์</li>
+      </ul>
     </div>
+    <!-- English -->
+    <div class="service-block-en">
+      <p class="services-title">Treatment / Care</p>
+      <p class="services-subtitle">Tendon, Nerve, Bone & Joint — General Medicine</p>
+      <ul class="services-list">
+        <li>Back pain radiating down the leg</li>
+        <li>Knee pain, stiff joints, viscosupplementation</li>
+        <li>Ankle problems, trigger finger, wrist ganglion cyst</li>
+        <li>Surgical release for nerve entrapment, trigger finger, wrist/ankle masses</li>
+        <li>Gout, rheumatoid arthritis, osteoporosis, sports injuries</li>
+        <li>Digital X-ray — fast, immediate results</li>
+        <li>Splinting, fracture reduction, dislocation management</li>
+        <li>Blood test for uric acid to diagnose gout</li>
+      </ul>
+    </div>
+    <!-- Lao -->
+    <div class="service-block-lo">
+      <p class="services-title">ກວດປິ່ນປົວ</p>
+      <p class="services-subtitle">ພະຍາດເສັ້ນເອັນ ເສັ້ນປະສາດ ກະດູກແລະຂໍ້ ພະຍາດທົ່ວໄປ</p>
+      <ul class="services-list">
+        <li>ເຈັບຫຼັງ ຮ້າງລົງຂາ</li>
+        <li>ເຈັບຫົວເຂົ່າ ຂໍ້ຕິດຂັດ ຊະລໍຂໍ້ເຂົ່າເສື່ອມດ້ວຍນ້ຳລ້ຽງຂໍ້</li>
+        <li>ຂໍ້ເທົ້າ ນິ້ວລັອກ ກ້ອນຊີດທີ່ຂໍ້ມື</li>
+        <li>ຜ່າຕັດຜັງຜືດຮັດເສັ້ນປະສາດ ນິ້ວລັອກ ກ້ອນເນື້ອທີ່ຂໍ້ມື ຂໍ້ເທົ້າ</li>
+        <li>ພະຍາດເກົ້າທີ ພະຍາດຣູມາຕອຍ ກະດູກພຸນ ບາດເຈັບຈາກກິລາ</li>
+        <li>ລະບົບ X-ray ດີຈີຕອລ ວ່ອງໄວ ຮູ້ຜົນທັນທີ</li>
+        <li>ໃສ່ເຝືອກ ຈັດກະດູກ ຂໍ້ເຄື່ອນ ກະດູກຫັກ</li>
+        <li>ກວດເລືອດຫາຄ່າກົດຢູຣິກເພື່ອວິນິດໄສພະຍາດເກົ້າທີ</li>
+      </ul>
+    </div>
+  </div>
 </section>
 
-<!-- LOCATION -->
+<!-- ===== LOCATION ===== -->
 <section id="location">
-    <h2><span class="th">สถานที่ตั้ง</span><span class="en">Location</span><span class="lo">ສະຖານທີ່ຕັ້ງ</span></h2>
-    <div class="location-card">
-        <div class="branch-buttons">
-            <button class="branch-btn active" onclick="showBranch('ubon', this)">📍 Ubon</button>
-            <button class="branch-btn" onclick="showBranch('yasothon', this)">📍 Yasothon</button>
-        </div>
-        <div id="ubon" class="branch">
-            <p><strong>Ubon Ratchathani</strong></p>
-            <p class="th">15/2 ซอยเลี่ยงเมือง 1 ตำบล ในเมือง อำเภอเมืองอุบลราชธานี อุบลราชธานี 34000</p>
-            <p class="en">15/2 Soi Liang Mueang 1, Tambon Nai Mueang, Mueang Ubon Ratchathani District, Ubon Ratchathani 34000, Thailand</p>
-            <p class="lo">15/2 ຊອຍລ່ຽງເມືອງ 1 ຕຳບົນ ໃນເມືອງ ອຳເພີເມືອງອຸບົນຣາຊະທານີ ອຸບົນຣາຊະທານີ 34000</p>
-            <div class="branch-content">
-                <div class="map-container">
-                    <a href="https://maps.google.com/?q=15.3245,104.8486" target="_blank" rel="noopener">
-                        <img src="map.ubon.png" loading="lazy" class="map-img" alt="แผนที่คลินิกอุบลราชธานี" onerror="this.src='https://placehold.co/600x400/CCE3CC/2e5c2a?text=Ubon+Map'">
-                    </a>
-                </div>
-                <div class="clinic-photo-container">
-                    <img src="ubon_clinic.jpg" loading="lazy" class="clinic-img" alt="Ubon Clinic" onerror="this.src='https://placehold.co/600x400/CCE3CC/2e5c2a?text=Ubon+Clinic'">
-                </div>
-            </div>
-        </div>
-        <div id="yasothon" class="branch" style="display:none;">
-            <p><strong>Yasothon</strong></p>
-            <p class="th">109 ถ. แจ้งสนิท ตำบล เขื่องคำ อำเภอเมืองยโสธร ยโสธร 35000</p>
-            <p class="en">109 Chaengsanit Road, Tambon Khoeng Kham, Mueang Yasothon District, Yasothon 35000, Thailand</p>
-            <p class="lo">109 ຖ. ແຈ້ງສະນິດ ຕຳບົນ ເຂື່ອງຄຳ ອຳເພີເມືອງຍໂສທຣ ຍໂສທຣ 35000</p>
-            <div class="branch-content">
-                <div class="map-container">
-                    <a href="https://maps.google.com/?q=15.7921,104.1451" target="_blank" rel="noopener">
-                        <img src="map.yasothon.png" loading="lazy" class="map-img" alt="แผนที่คลินิกยโสธร" onerror="this.src='https://placehold.co/600x400/CCE3CC/2e5c2a?text=Yasothon+Map'">
-                    </a>
-                </div>
-                <div class="clinic-photo-container">
-                    <img src="yasothon_clinic.jpg" loading="lazy" class="clinic-img" alt="Yasothon Clinic" onerror="this.src='https://placehold.co/600x400/CCE3CC/2e5c2a?text=Yasothon+Clinic'">
-                </div>
-            </div>
-        </div>
+  <h2>
+    <span class="th">สถานที่ตั้ง</span>
+    <span class="en">Location</span>
+    <span class="lo">ສະຖານທີ່ຕັ້ງ</span>
+  </h2>
+  <div class="location-card">
+    <div class="branch-buttons">
+      <button class="branch-btn active" onclick="showBranch('ubon', this)">📍 Ubon Ratchathani</button>
+      <button class="branch-btn"        onclick="showBranch('yasothon', this)">📍 Yasothon</button>
     </div>
+
+    <!-- Ubon -->
+    <div id="ubon" class="branch">
+      <p><strong>Ubon Ratchathani</strong></p>
+      <p class="th">15/2 ซอยเลี่ยงเมือง 1 ตำบลในเมือง อำเภอเมืองอุบลราชธานี อุบลราชธานี 34000</p>
+      <p class="en">15/2 Soi Liang Mueang 1, Tambon Nai Mueang, Mueang Ubon Ratchathani, Ubon Ratchathani 34000</p>
+      <p class="lo">15/2 ຊອຍລ່ຽງເມືອງ 1 ຕຳບົນໃນເມືອງ ອຳເພີເມືອງອຸບົນຣາຊະທານີ 34000</p>
+      <div class="branch-content">
+        <div class="map-container">
+          <a href="https://maps.google.com/?q=15.3245,104.8486" target="_blank" rel="noopener noreferrer">
+            <img src="map.ubon.png" loading="lazy" class="map-img" alt="แผนที่คลินิกอุบลราชธานี"
+              onerror="this.src='https://placehold.co/600x400/CCE3CC/2e5c2a?text=Ubon+Map'">
+          </a>
+        </div>
+        <div class="clinic-photo-container">
+          <img src="ubon_clinic.jpg" loading="lazy" class="clinic-img" alt="Ubon Ratchathani Clinic"
+            onerror="this.src='https://placehold.co/600x400/CCE3CC/2e5c2a?text=Ubon+Clinic'">
+        </div>
+      </div>
+    </div>
+
+    <!-- Yasothon -->
+    <div id="yasothon" class="branch" hidden>
+      <p><strong>Yasothon</strong></p>
+      <p class="th">109 ถ.แจ้งสนิท ตำบลเขื่องคำ อำเภอเมืองยโสธร ยโสธร 35000</p>
+      <p class="en">109 Chaengsanit Road, Tambon Khoeng Kham, Mueang Yasothon, Yasothon 35000</p>
+      <p class="lo">109 ຖ.ແຈ້ງສະນິດ ຕຳບົນເຂື່ອງຄຳ ອຳເພີເມືອງຍໂສທຣ 35000</p>
+      <div class="branch-content">
+        <div class="map-container">
+          <a href="https://maps.google.com/?q=15.7921,104.1451" target="_blank" rel="noopener noreferrer">
+            <img src="map.yasothon.png" loading="lazy" class="map-img" alt="แผนที่คลินิกยโสธร"
+              onerror="this.src='https://placehold.co/600x400/CCE3CC/2e5c2a?text=Yasothon+Map'">
+          </a>
+        </div>
+        <div class="clinic-photo-container">
+          <img src="yasothon_clinic.jpg" loading="lazy" class="clinic-img" alt="Yasothon Clinic"
+            onerror="this.src='https://placehold.co/600x400/CCE3CC/2e5c2a?text=Yasothon+Clinic'">
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
+<!-- ===== HOURS ===== -->
 <section id="hours">
-    <h2><span class="th">เวลาทำการ</span><span class="en">Opening Hours</span><span class="lo">ເວລາເປີດບໍລິການ</span></h2>
-    <div class="card">
-        <p><strong>📍 <span class="th">สาขายโสธร</span><span class="en">Yasothon Branch</span><span class="lo">ສາຂາຍໂສທຣ</span></strong></p>
-        <p><span class="th">📅 วันจันทร์ - ศุกร์:</span><span class="en">📅 Monday - Friday:</span><span class="lo">📅 ວັນຈັນ - ສຸກ:</span></p>
-        <p style="padding-left:28px;">🌅 <span class="th">07:30 - 08:30 น.</span><span class="en">7:30 AM - 8:30 AM</span><span class="lo">7:30 ໂມງເຊົ້າ - 8:30 ໂມງເຊົ້າ</span></p>
-        <p style="padding-left:28px;">☀️ <span class="th">12:00 - 13:00 น.</span><span class="en">12:00 PM - 1:00 PM</span><span class="lo">12:00 ໂມງກາງເວັນ - 13:00 ໂມງ</span></p>
-        <p style="padding-left:28px;">🌙 <span class="th">17:00 - 20:00 น.</span><span class="en">5:00 PM - 8:00 PM</span><span class="lo">17:00 ໂມງ - 20:00 ໂມງ</span></p>
-        <p><span class="th">📅 วันเสาร์:</span><span class="en">📅 Saturday:</span><span class="lo">📅 ວັນເສົາ:</span></p>
-        <p style="padding-left:28px;">🌅 <span class="th">07:30 - 12:00 น.</span><span class="en">7:30 AM - 12:00 PM</span><span class="lo">7:30 ໂມງເຊົ້າ - 12:00 ໂມງກາງເວັນ</span></p>
-    </div>
-    <div class="card">
-        <p><strong>📍 <span class="th">สาขาอุบลราชธานี (ตลาดนิกร - บิ๊กซี)</span><span class="en">Ubon Branch (Nikor Market - Big C)</span><span class="lo">ສາຂາອຸບົນຣາຊະທານີ (ຕະຫຼາດນິກອນ - ບິກຊີ)</span></strong></p>
-        <p><span class="th">📅 วันเสาร์:</span><span class="en">📅 Saturday:</span><span class="lo">📅 ວັນເສົາ:</span></p>
-        <p style="padding-left:28px;">🌅 <span class="th">14:00 - 19:00 น.</span><span class="en">2:00 PM - 7:00 PM</span><span class="lo">14:00 ໂມງ - 19:00 ໂມງ</span></p>
-        <p><span class="th">📅 วันอาทิตย์:</span><span class="en">📅 Sunday:</span><span class="lo">📅 ວັນອາທິດ:</span></p>
-        <p style="padding-left:28px;">🌅 <span class="th">09:00 - 19:00 น.</span><span class="en">9:00 AM - 7:00 PM</span><span class="lo">9:00 ໂມງເຊົ້າ - 19:00 ໂມງ</span></p>
-    </div>
+  <h2>
+    <span class="th">เวลาทำการ</span>
+    <span class="en">Opening Hours</span>
+    <span class="lo">ເວລາເປີດບໍລິການ</span>
+  </h2>
+
+  <div class="card">
+    <p><strong>📍 <span class="th">สาขายโสธร</span><span class="en">Yasothon Branch</span><span class="lo">ສາຂາຍໂສທຣ</span></strong></p>
+    <p><span class="th">📅 วันจันทร์ – ศุกร์</span><span class="en">📅 Monday – Friday</span><span class="lo">📅 ວັນຈັນ – ສຸກ</span></p>
+    <p style="padding-left: 28px;">🌅 07:30 – 08:30</p>
+    <p style="padding-left: 28px;">☀️ 12:00 – 13:00</p>
+    <p style="padding-left: 28px;">🌙 17:00 – 20:00</p>
+    <p><span class="th">📅 วันเสาร์</span><span class="en">📅 Saturday</span><span class="lo">📅 ວັນເສົາ</span></p>
+    <p style="padding-left: 28px;">🌅 07:30 – 12:00</p>
+  </div>
+
+  <div class="card">
+    <p><strong>📍 <span class="th">สาขาอุบลราชธานี (ตลาดนิกร – บิ๊กซี)</span><span class="en">Ubon Branch (Nikor Market – Big C)</span><span class="lo">ສາຂາອຸບົນຣາຊະທານີ (ຕະຫຼາດນິກອນ – ບິກຊີ)</span></strong></p>
+    <p><span class="th">📅 วันเสาร์</span><span class="en">📅 Saturday</span><span class="lo">📅 ວັນເສົາ</span></p>
+    <p style="padding-left: 28px;">🌅 14:00 – 19:00</p>
+    <p><span class="th">📅 วันอาทิตย์</span><span class="en">📅 Sunday</span><span class="lo">📅 ວັນອາທິດ</span></p>
+    <p style="padding-left: 28px;">🌅 09:00 – 19:00</p>
+  </div>
 </section>
 
+<!-- ===== CONTACT ===== -->
 <section id="contact">
-    <h2><span class="th">ติดต่อ</span><span class="en">Contact</span><span class="lo">ຕິດຕໍ່</span></h2>
-    <div class="card">
-        <p>📞 <a href="tel:0816943743">081-694-3743</a> (<span class="th">โทรเลย</span><span class="en">Call now</span><span class="lo">ໂທດ່ວນ</span>)</p>
-        <p>📞 <a href="tel:0816600466">081-660-0466</a></p>
-        <p>💬 LINE: <a href="https://line.me/ti/p/@suwatclinic">@suwatclinic</a> (<span class="th">แอดไลน์</span><span class="en">Add LINE</span><span class="lo">ເພີ່ມ LINE</span>)</p>
-        <div style="margin-top: 5px; margin-bottom: 10px; padding-left: 20px;">
-            <img src="line-qr.jpg" loading="lazy" alt="LINE QR Code" style="width: 100px; height: auto; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); display: block;">
-        </div>
-        <p>🌐 Facebook: <a href="https://www.facebook.com/suwatclinic" target="_blank"><span class="th">คลินิกโรคกระดูกและข้อหมอสุวัฒน์</span><span class="en">Suwat Orthopedic Clinic</span><span class="lo">ຄລີນິກພະຍາດກະດູກແລະຂໍ້ທ່ານໝໍສຸວັດ</span></a></p>
+  <h2>
+    <span class="th">ติดต่อ</span>
+    <span class="en">Contact</span>
+    <span class="lo">ຕິດຕໍ່</span>
+  </h2>
+  <div class="card">
+    <p>📞 <a href="tel:0816943743">081-694-3743</a>
+      (<span class="th">โทรเลย</span><span class="en">Call now</span><span class="lo">ໂທດ່ວນ</span>)
+    </p>
+    <p>📞 <a href="tel:0816600466">081-660-0466</a></p>
+    <p>💬 LINE: <a href="https://line.me/ti/p/@suwatclinic" target="_blank" rel="noopener noreferrer">@suwatclinic</a>
+      (<span class="th">แอดไลน์</span><span class="en">Add LINE</span><span class="lo">ເພີ່ມ LINE</span>)
+    </p>
+    <div style="margin: 8px 0 12px 20px;">
+      <img src="line-qr.jpg" loading="lazy" alt="LINE QR Code"
+        style="width: 100px; height: auto; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); display: block;">
     </div>
+    <p>🌐 Facebook:
+      <a href="https://www.facebook.com/suwatclinic" target="_blank" rel="noopener noreferrer">
+        <span class="th">คลินิกโรคกระดูกและข้อหมอสุวัฒน์</span>
+        <span class="en">Suwat Orthopedic Clinic</span>
+        <span class="lo">ຄລີນິກພະຍາດກະດູກແລະຂໍ້ທ່ານໝໍສຸວັດ</span>
+      </a>
+    </p>
+  </div>
 </section>
 
+<!-- ===== FOOTER ===== -->
 <footer>
-    <p>© 2026 Suwat Clinic — <span class="th">คลินิกเฉพาะทางด้านกระดูกและข้อ อุบลราชธานี</span><span class="en">Orthopedic Clinic Ubon Ratchathani</span><span class="lo">ຄລີນິກຊ່ຽວຊານດ້ານກະດູກແລະຂໍ້ ອຸບົນຣາຊະທານີ</span></p>
+  <p>© 2026 Suwat Clinic —
+    <span class="th">คลินิกเฉพาะทางด้านกระดูกและข้อ อุบลราชธานี</span>
+    <span class="en">Orthopedic Clinic, Ubon Ratchathani</span>
+    <span class="lo">ຄລີນິກຊ່ຽວຊານດ້ານກະດູກແລະຂໍ້ ອຸບົນຣາຊະທານີ</span>
+  </p>
 </footer>
 
 <script>
-// Language toggle function - using CSS classes for better SEO
+/* ===================================================
+   Language Toggle
+   =================================================== */
 function setLanguage(lang) {
-    // Remove existing language classes
-    document.body.classList.remove('lang-th', 'lang-en', 'lang-lo');
-    // Add new language class
-    document.body.classList.add(`lang-${lang}`);
-    
-    // Store preference in localStorage
+  const valid = ['th', 'en', 'lo'];
+  if (!valid.includes(lang)) return;
+
+  document.body.classList.remove('lang-th', 'lang-en', 'lang-lo');
+  document.body.classList.add('lang-' + lang);
+  document.getElementById('html-root').lang = lang;
+
+  try {
     localStorage.setItem('preferred_language', lang);
+  } catch (_) { /* private browsing — silently ignore */ }
 }
 
-// Branch toggle
-function showBranch(branch, btn) {
-    document.querySelectorAll('.branch').forEach(el => el.style.display = 'none');
-    document.getElementById(branch).style.display = 'block';
-    document.querySelectorAll('.branch-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
+/* ===================================================
+   Branch Toggle
+   =================================================== */
+function showBranch(branchId, btn) {
+  document.querySelectorAll('.branch').forEach(function(el) {
+    el.hidden = true;
+  });
+  document.getElementById(branchId).hidden = false;
+
+  document.querySelectorAll('.branch-btn').forEach(function(b) {
+    b.classList.remove('active');
+  });
+  btn.classList.add('active');
 }
 
-// Load saved language preference
-(function initLanguage() {
-    const savedLang = localStorage.getItem('preferred_language');
-    if (savedLang && ['th', 'en', 'lo'].includes(savedLang)) {
-        setLanguage(savedLang);
-    } else {
-        setLanguage('th');
-    }
-})();
+/* ===================================================
+   Gallery Slider
+   =================================================== */
+(function initSlider() {
+  const slidesEl    = document.getElementById('slides');
+  const dotsEl      = document.getElementById('dotsContainer');
+  const prevBtn     = document.getElementById('prevBtn');
+  const nextBtn     = document.getElementById('nextBtn');
+  const galleryEl   = document.getElementById('galleryContainer');
 
-// Initialize branch
-(function initBranch() {
-    const activeBtn = document.querySelector('.branch-btn.active');
-    if (activeBtn) {
-        const branchId = activeBtn.getAttribute('onclick').match(/'([^']+)'/)[1];
-        showBranch(branchId, activeBtn);
-    }
-})();
+  if (!slidesEl) return;
 
-// Gallery slider (with lazy load support)
-let currentIdx = 0;
-const totalSlides = 5;
-const slidesContainer = document.getElementById('slides');
-const dotsContainer = document.getElementById('dotsContainer');
-const prevBtn = document.getElementById('prevBtn');
-const nextBtn = document.getElementById('nextBtn');
-let autoInterval;
+  const total = slidesEl.children.length; // derived from DOM — no hardcoding
+  let current = 0;
+  let timer;
 
-function updateSlider() {
-    if(slidesContainer) {
-        slidesContainer.style.transform = `translateX(-${currentIdx * 20}%)`;
-    }
-    document.querySelectorAll('.dot').forEach((dot, i) => {
-        if(i === currentIdx) dot.classList.add('active');
-        else dot.classList.remove('active');
+  /* Build dots */
+  for (let i = 0; i < total; i++) {
+    const dot = document.createElement('button');
+    dot.className = 'dot' + (i === 0 ? ' active' : '');
+    dot.setAttribute('role', 'tab');
+    dot.setAttribute('aria-label', 'Slide ' + (i + 1));
+    dot.addEventListener('click', function() { goTo(i); });
+    dotsEl.appendChild(dot);
+  }
+
+  function render() {
+    slidesEl.style.transform = 'translateX(-' + (current * 100) + '%)';
+    dotsEl.querySelectorAll('.dot').forEach(function(d, i) {
+      d.classList.toggle('active', i === current);
     });
-}
+  }
 
-function goNext() { currentIdx = (currentIdx + 1) % totalSlides; updateSlider(); resetInterval(); }
-function goPrev() { currentIdx = (currentIdx - 1 + totalSlides) % totalSlides; updateSlider(); resetInterval(); }
-function goToSlide(index) { currentIdx = index; updateSlider(); resetInterval(); }
+  function goTo(index) {
+    current = (index + total) % total;
+    render();
+    resetTimer();
+  }
 
-function resetInterval() {
-    if(autoInterval) clearInterval(autoInterval);
-    autoInterval = setInterval(() => { goNext(); }, 5000);
-}
-function pauseSlider() { if(autoInterval) clearInterval(autoInterval); }
-function resumeSlider() { resetInterval(); }
+  function resetTimer() {
+    clearInterval(timer);
+    timer = setInterval(function() { goTo(current + 1); }, 5000);
+  }
 
-// Create dots
-if(dotsContainer) {
-    for(let i = 0; i < totalSlides; i++) {
-        const dot = document.createElement('div');
-        dot.classList.add('dot');
-        if(i === 0) dot.classList.add('active');
-        dot.addEventListener('click', () => goToSlide(i));
-        dotsContainer.appendChild(dot);
-    }
-}
+  prevBtn.addEventListener('click', function() { goTo(current - 1); });
+  nextBtn.addEventListener('click', function() { goTo(current + 1); });
 
-if(prevBtn) prevBtn.addEventListener('click', goPrev);
-if(nextBtn) nextBtn.addEventListener('click', goNext);
+  galleryEl.addEventListener('mouseenter', function() { clearInterval(timer); });
+  galleryEl.addEventListener('mouseleave', resetTimer);
 
-const galleryDiv = document.getElementById('galleryContainer');
-if(galleryDiv) {
-    galleryDiv.addEventListener('mouseenter', pauseSlider);
-    galleryDiv.addEventListener('mouseleave', resumeSlider);
-}
-resetInterval();
+  render();
+  resetTimer();
+})();
+
+/* ===================================================
+   Init: Language & Branch on page load
+   =================================================== */
+(function init() {
+  /* Language */
+  let lang = 'th';
+  try {
+    const saved = localStorage.getItem('preferred_language');
+    if (['th', 'en', 'lo'].includes(saved)) lang = saved;
+  } catch (_) { /* ignore */ }
+  setLanguage(lang);
+
+  /* Branch — ensure Ubon is visible by default */
+  const defaultBranch = document.querySelector('.branch-btn.active');
+  if (defaultBranch) {
+    const match = defaultBranch.getAttribute('onclick').match(/'([^']+)'/);
+    if (match) showBranch(match[1], defaultBranch);
+  }
+})();
 </script>
 </body>
 </html>
